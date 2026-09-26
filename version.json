@@ -1,0 +1,18 @@
+{
+    "name": "AntiVenom Hub",
+    "version": "1.0.2",
+    "kodi_target": "21.3 (Omega) & 20 (Nexus)",
+    "skin_version": "4.0.0",
+    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.2.zip",
+    "changelog": [
+        "Netflix-style Wall view (500) now default for all content: Movies, TV, Sports, Search",
+        "Fixed Wall view not activating on plugin directories (added files content type support)",
+        "Sports cards now launch directly to stream lists (no popup dialog)",
+        "HBO Max card aspect ratio fixed (no longer stretched)",
+        "Removed Close button from top-right corner of home screen",
+        "Real-Debrid status now checks actual vault before showing active",
+        "All sports paths registered in ViewModes6.db for persistent Netflix views",
+        "Zero Buffering dual-engine: 100MB RAM filecache optimized for 1GB/2GB Firesticks",
+        "Persistent Real-Debrid token auto-restore across updates"
+    ]
+}
