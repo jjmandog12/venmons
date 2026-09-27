@@ -1,15 +1,14 @@
 {
     "name": "AntiVenom Hub",
-    "version": "1.0.3",
+    "version": "1.0.5",
     "kodi_target": "21.3 (Omega) & 20 (Nexus)",
-    "skin_version": "4.0.1",
-    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.3.zip",
+    "skin_version": "4.0.2",
+    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.5.zip",
     "changelog": [
-        "Sport-specific cinematic artwork: NFL, UFC, NBA, MLB, NHL, F1, Boxing, WWE, NASCAR, NCAA, Soccer",
-        "InfoWallThumbVar, PosterThumbVar, IconWallThumbVar now detect Container.FolderPath sport sections",
-        "View_54_InfoWall no-poster group now uses $VAR[InfoWallThumbVar] for global sport art override",
-        "11 high-quality 3:4 sport card images bundled in skin.antivenom/media/antivenom/sports/",
-        "Covers The Crew actions: ufc, f1, nfl, nba, mlb, nhl, boxing, fifa, wwe, nascar, ncaa, ncaab",
-        "Also covers streamed_ prefixed actions for alternate sport routing"
+        "Fixed D-pad remote navigation: smooth 2-way vertical flow between top bar and cards",
+        "Fixed movies and TV shows loading: corrected scraper endpoints (Theaters, Rating, Full Directory)",
+        "Direct 1-click access to 4K Trending, In Theaters, TV Networks (Netflix/HBO/Disney+) & Sports",
+        "Zero Buffering dual-engine: 100MB RAM filecache optimized for 1GB/2GB Firesticks",
+        "Persistent Real-Debrid token auto-restore across updates"
     ]
 }
