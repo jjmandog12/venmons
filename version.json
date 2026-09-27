@@ -1,15 +1,15 @@
 {
     "name": "AntiVenom Hub",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "kodi_target": "21.3 (Omega) & 20 (Nexus)",
     "skin_version": "4.0.3",
-    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.9.zip",
+    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.10.zip",
     "changelog": [
-        "Fixed: ResolveURL cached_only was hardcoded true, now false (non-pre-cached RD torrents now served)",
-        "Fixed: autoplay.sd now auto-enabled on install, SD-only sources for old/niche titles play correctly",
-        "Fixed: remove.uncached now auto-disabled, non-cached torrents visible when no cached version exists",
-        "All 4 fixes applied silently on first boot, zero TV setup required",
-        "Auto-configure The Crew scrapers on install (gearsscrapers + cocoscrapers enabled)",
-        "Persistent Real-Debrid token auto-restore across updates"
+        "Fixed: Resume/Continue Watching not updating \u2014 3 root causes resolved",
+        "Fixed: FireStick race condition \u2014 metadata capture now retries 3x with 800ms delay",
+        "Fixed: Ambient trailer flag was blocking real movie progress from saving",
+        "Fixed: Min save threshold lowered from 2% to 0.5% so early stops now save",
+        "Fixed: Resume ID now uses stable MD5 instead of Python hash() (which randomizes on restart)",
+        "Fixed: Plugin:// resume now passes seektime so notification shows correct position"
     ]
 }
