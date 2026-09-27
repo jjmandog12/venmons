@@ -2,7 +2,7 @@
     "name": "AntiVenom Hub",
     "version": "1.0.6",
     "kodi_target": "21.3 (Omega) & 20 (Nexus)",
-    "skin_version": "4.0.2",
+    "skin_version": "4.0.3",
     "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.6.zip",
     "changelog": [
         "Fixed D-pad remote navigation: smooth 2-way vertical flow between top bar and cards",
