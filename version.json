@@ -1,15 +1,15 @@
 {
     "name": "AntiVenom Hub",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "kodi_target": "21.3 (Omega) & 20 (Nexus)",
     "skin_version": "4.0.3",
-    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.8.zip",
+    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.9.zip",
     "changelog": [
-        "Auto-configure The Crew scrapers on install (gearsscrapers + cocoscrapers enabled automatically)",
-        "Fixed no-streams routing: more scraper packs active by default for better source coverage",
-        "Scraper settings applied silently on first boot, zero TV setup required",
-        "Fixed D-pad remote navigation: smooth 2-way vertical flow between top bar and cards",
-        "Fixed movies and TV shows loading: corrected scraper endpoints",
+        "Fixed: ResolveURL cached_only was hardcoded true, now false (non-pre-cached RD torrents now served)",
+        "Fixed: autoplay.sd now auto-enabled on install, SD-only sources for old/niche titles play correctly",
+        "Fixed: remove.uncached now auto-disabled, non-cached torrents visible when no cached version exists",
+        "All 4 fixes applied silently on first boot, zero TV setup required",
+        "Auto-configure The Crew scrapers on install (gearsscrapers + cocoscrapers enabled)",
         "Persistent Real-Debrid token auto-restore across updates"
     ]
 }
