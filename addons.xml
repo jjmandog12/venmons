@@ -23,7 +23,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="skin.antivenom" version="4.0.2" name="AntiVenom" provider-name="AntiVenom">
+<addon id="skin.antivenom" version="4.0.3" name="AntiVenom" provider-name="AntiVenom">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0"/>
 	</requires>
