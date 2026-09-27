@@ -1,9 +1,9 @@
 {
     "name": "AntiVenom Hub",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "kodi_target": "21.3 (Omega) & 20 (Nexus)",
     "skin_version": "4.0.3",
-    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.6.zip",
+    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.7.zip",
     "changelog": [
         "Fixed D-pad remote navigation: smooth 2-way vertical flow between top bar and cards",
         "Fixed movies and TV shows loading: corrected scraper endpoints (Theaters, Rating, Full Directory)",
