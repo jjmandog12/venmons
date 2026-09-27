@@ -1,14 +1,15 @@
 {
     "name": "AntiVenom Hub",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "kodi_target": "21.3 (Omega) & 20 (Nexus)",
     "skin_version": "4.0.3",
-    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.7.zip",
+    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.8.zip",
     "changelog": [
+        "Auto-configure The Crew scrapers on install (gearsscrapers + cocoscrapers enabled automatically)",
+        "Fixed no-streams routing: more scraper packs active by default for better source coverage",
+        "Scraper settings applied silently on first boot, zero TV setup required",
         "Fixed D-pad remote navigation: smooth 2-way vertical flow between top bar and cards",
-        "Fixed movies and TV shows loading: corrected scraper endpoints (Theaters, Rating, Full Directory)",
-        "Direct 1-click access to 4K Trending, In Theaters, TV Networks (Netflix/HBO/Disney+) & Sports",
-        "Zero Buffering dual-engine: 100MB RAM filecache optimized for 1GB/2GB Firesticks",
+        "Fixed movies and TV shows loading: corrected scraper endpoints",
         "Persistent Real-Debrid token auto-restore across updates"
     ]
 }
