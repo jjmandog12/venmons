@@ -1,10 +1,14 @@
 {
     "name": "AntiVenom Hub",
-    "version": "1.0.19",
+    "version": "1.0.21",
     "kodi_target": "21.3 (Omega) & 20 (Nexus)",
     "skin_version": "4.0.5",
-    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.19.zip",
+    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.21.zip",
     "changelog": [
+        "Fixed: Tapping Alien: Romulus (and other Home posters) started a Crew scrape then dumped you back on Home \u2014 play now waits for The Crew and falls back to the movie list if the player never starts",
+        "Speed: Movies/TV genre and network lists are cached after the first open so the second open does not scrape from scratch",
+        "Fixed: Play buttons with '&' in the title (Deadpool & Wolverine) did nothing \u2014 the title was cut off",
+        "Speed: Background Real-Debrid sync every 60s (was 10s); GameDay every 3 minutes; Crew search DB init once",
         "Added: Check for Updates is back in the AntiVenom SETTINGS menu (it had no button in 1.0.17/1.0.18)",
         "Fixed: plugin://script.antivenom/ now returns an empty directory immediately (no install/setup, no GetDirectory crash)",
         "Fixed: Skin install never deletes the live skin folder (Android errno 16/39); existing trees are synced in place",
