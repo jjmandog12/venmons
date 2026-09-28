@@ -1,15 +1,14 @@
 {
     "name": "AntiVenom Hub",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "kodi_target": "21.3 (Omega) & 20 (Nexus)",
     "skin_version": "4.0.3",
-    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.10.zip",
+    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.11.zip",
     "changelog": [
-        "Fixed: Resume/Continue Watching not updating \u2014 3 root causes resolved",
-        "Fixed: FireStick race condition \u2014 metadata capture now retries 3x with 800ms delay",
-        "Fixed: Ambient trailer flag was blocking real movie progress from saving",
-        "Fixed: Min save threshold lowered from 2% to 0.5% so early stops now save",
-        "Fixed: Resume ID now uses stable MD5 instead of Python hash() (which randomizes on restart)",
-        "Fixed: Plugin:// resume now passes seektime so notification shows correct position"
+        "Added: Auto system check before home screen - scans all skin files and addons on boot",
+        "Added: Popup only shows when prerequisites are missing - silent when everything is healthy",
+        "Added: Auto-downloads missing skin media files from GitHub on first boot",
+        "Added: Auto-installs missing addons (The Crew, ResolveURL, IPTV Simple) if not present",
+        "Added: System Check option added to Settings menu for manual re-run"
     ]
 }
