@@ -1,10 +1,11 @@
 {
     "name": "AntiVenom Hub",
-    "version": "1.0.29",
+    "version": "1.0.30",
     "kodi_target": "21.3 (Omega) & 20 (Nexus)",
     "skin_version": "4.0.7",
-    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.29.zip",
+    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.30.zip",
     "changelog": [
+        "Added: TV episodes use the same cached Real-Debrid play before The Crew search",
         "Added: Fast Mode tries a cached Real-Debrid file first (about 10s) and only opens The Crew search if Real-Debrid has no copy",
         "Added: Fast Mode ON by default \u2014 Crew+Classy scrapers, ~8s timeout, RD cached-first, auto-play with 4 automatic stream tries before no-stream",
         "Added: Settings Fast Mode toggle (OFF restores all scraper packs and source picking) plus Optimize for Speed re-apply",
