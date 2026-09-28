@@ -1,15 +1,13 @@
 {
     "name": "AntiVenom Hub",
-    "version": "1.0.13",
+    "version": "1.0.14",
     "kodi_target": "21.3 (Omega) & 20 (Nexus)",
     "skin_version": "4.0.3",
-    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.13.zip",
+    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.14.zip",
     "changelog": [
-        "Fixed: System Check now restores missing skin files from the bundled skin (or the published zip) instead of a dead URL",
-        "Fixed: Resume points and Continue Watching now save correctly (background service crash)",
-        "Fixed: Setup Wizard device-tuning step no longer fails; 150/300/500MB cache choices apply",
-        "Fixed: Settings > System Check runs and confirms when everything is healthy",
-        "Fixed: Hero 'Trailer & Info' button plays the trailer or opens the title instead of Settings",
-        "Fixed: Garbled characters in add-on description"
+        "Fixed: 'Authorize Now' for Real-Debrid now shows the pairing code popup",
+        "New: Automatic crash reporting sends errors to the developer so they get fixed",
+        "New: Settings > 'Send Problem Report to Developer' for issues like black screens",
+        "Fixed: Kodi logging was switched off; it is now on (takes effect after a restart)"
     ]
 }
