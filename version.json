@@ -1,10 +1,11 @@
 {
     "name": "AntiVenom Hub",
-    "version": "1.0.16",
+    "version": "1.0.17",
     "kodi_target": "21.3 (Omega) & 20 (Nexus)",
-    "skin_version": "4.0.3",
-    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.16.zip",
+    "skin_version": "4.0.4",
+    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.17.zip",
     "changelog": [
+        "Fixed: The top-bar SETTINGS button now opens the AntiVenom menu (System Check, Real-Debrid, Send Problem Report) instead of Kodi's stock settings",
         "Speed: Fixed Firestick cache read factor (was 2000x, now 10x) that pinned the CPU",
         "Speed: Removed nonstop GPU redraw (nofliptimeout) so idle menus are smooth",
         "Speed: Ambient auto-play trailers are now OFF by default (toggle in AntiVenom menu)",
