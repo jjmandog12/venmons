@@ -1,14 +1,14 @@
 {
     "name": "AntiVenom Hub",
-    "version": "1.0.11",
+    "version": "1.0.12",
     "kodi_target": "21.3 (Omega) & 20 (Nexus)",
     "skin_version": "4.0.3",
-    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.11.zip",
+    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.12.zip",
     "changelog": [
-        "Added: Auto system check before home screen - scans all skin files and addons on boot",
-        "Added: Popup only shows when prerequisites are missing - silent when everything is healthy",
-        "Added: Auto-downloads missing skin media files from GitHub on first boot",
-        "Added: Auto-installs missing addons (The Crew, ResolveURL, IPTV Simple) if not present",
-        "Added: System Check option added to Settings menu for manual re-run"
+        "Fixed: Resume points and Continue Watching now save correctly (background service crash)",
+        "Fixed: Setup Wizard device-tuning step no longer fails; 150/300/500MB cache choices apply",
+        "Fixed: Settings > System Check runs and confirms when everything is healthy",
+        "Fixed: Hero 'Trailer & Info' button plays the trailer or opens the title instead of Settings",
+        "Fixed: Garbled characters in add-on description"
     ]
 }
