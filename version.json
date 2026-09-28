@@ -1,10 +1,11 @@
 {
     "name": "AntiVenom Hub",
-    "version": "1.0.22",
+    "version": "1.0.23",
     "kodi_target": "21.3 (Omega) & 20 (Nexus)",
     "skin_version": "4.0.5",
-    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.22.zip",
+    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.23.zip",
     "changelog": [
+        "Speed: First click on a Movies/TV link goes straight to The Crew again (1.0.22 was scraping twice). The list is cached after you leave, so the next open is instant",
         "Fixed: Check for Updates no longer treats the old GitHub Release (v1.0.11) as latest \u2014 it now uses version.json so 1.0.19 sticks are offered 1.0.22",
         "Fixed: Tapping Alien: Romulus (and other Home posters) started a Crew scrape then dumped you back on Home \u2014 play now waits for The Crew and falls back to the movie list if the player never starts",
         "Speed: Movies/TV genre and network lists are cached after the first open so the second open does not scrape from scratch",
