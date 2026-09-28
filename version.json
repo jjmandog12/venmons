@@ -1,18 +1,19 @@
 {
     "name": "AntiVenom Hub",
-    "version": "1.0.17",
+    "version": "1.0.18",
     "kodi_target": "21.3 (Omega) & 20 (Nexus)",
-    "skin_version": "4.0.4",
-    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.17.zip",
+    "skin_version": "4.0.5",
+    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.18.zip",
     "changelog": [
-        "Fixed: The top-bar SETTINGS button now opens the AntiVenom menu (System Check, Real-Debrid, Send Problem Report) instead of Kodi's stock settings",
-        "Speed: Fixed Firestick cache read factor (was 2000x, now 10x) that pinned the CPU",
-        "Speed: Removed nonstop GPU redraw (nofliptimeout) so idle menus are smooth",
-        "Speed: Ambient auto-play trailers are now OFF by default (toggle in AntiVenom menu)",
-        "Fixed: Fire TV skin now self-repairs to match the latest build on every start (fixes stale/partial skin installs)",
-        "Fixed: 'Authorize Now' for Real-Debrid now shows the pairing code popup",
-        "New: Automatic crash reporting sends errors to the developer so they get fixed",
-        "New: Settings > 'Send Problem Report to Developer' for issues like black screens",
-        "Fixed: Kodi logging was switched off; it is now on (takes effect after a restart)"
+        "Fixed: plugin://script.antivenom/ now returns an empty directory immediately (no install/setup, no GetDirectory crash)",
+        "Fixed: Skin install never deletes the live skin folder (Android errno 16/39); existing trees are synced in place",
+        "Fixed: Kodi settings are no longer rewritten as XML while Kodi is running (that reset the skin to Estuary)",
+        "Speed: Home no longer runs a second system check on every load; the service does it once per session",
+        "Speed: Boot no longer copies the entire skin or ReloadSkin unless files are actually missing",
+        "Speed: Service no longer runs InstallAddon loops on every boot",
+        "Fixed: Setup wizard cache is capped at 40MB on 1GB Fire Sticks (150MB was starving RAM)",
+        "Fixed: 4K/10-bit HEVC sources are recapped to 1080p on 1GB sticks (UHD remuxes crash the AFTT decoder)",
+        "Fixed: The top-bar SETTINGS button opens the AntiVenom menu",
+        "Speed: Ambient auto-play trailers stay OFF by default"
     ]
 }
