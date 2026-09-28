@@ -1,10 +1,11 @@
 {
     "name": "AntiVenom Hub",
-    "version": "1.0.18",
+    "version": "1.0.19",
     "kodi_target": "21.3 (Omega) & 20 (Nexus)",
     "skin_version": "4.0.5",
-    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.18.zip",
+    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.19.zip",
     "changelog": [
+        "Added: Check for Updates is back in the AntiVenom SETTINGS menu (it had no button in 1.0.17/1.0.18)",
         "Fixed: plugin://script.antivenom/ now returns an empty directory immediately (no install/setup, no GetDirectory crash)",
         "Fixed: Skin install never deletes the live skin folder (Android errno 16/39); existing trees are synced in place",
         "Fixed: Kodi settings are no longer rewritten as XML while Kodi is running (that reset the skin to Estuary)",
