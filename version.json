@@ -1,10 +1,11 @@
 {
     "name": "AntiVenom Hub",
-    "version": "1.0.36",
+    "version": "1.0.37",
     "kodi_target": "21.3 (Omega) & 20 (Nexus)",
     "skin_version": "4.0.9",
-    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.36.zip",
+    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.37.zip",
     "changelog": [
+        "Sports: every league's Live games, College, Pros, and Replays stay on that sport. UFC no longer opens college football, and replays are filtered to the sport you picked",
         "Sports: Live games inside a sport shows that league's games today. Dead Crew links (url 0) are no longer listed",
         "Sports lists now use the Netflix poster wall, the same image view as Movies and TV",
         "Sports: UFC, NFL, NBA and the other sport cards are back. Opening a sport shows Live games, College, Pros, and Replay games",
