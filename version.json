@@ -1,10 +1,11 @@
 {
     "name": "AntiVenom Hub",
-    "version": "1.0.39",
+    "version": "1.0.40",
     "kodi_target": "21.3 (Omega) & 20 (Nexus)",
     "skin_version": "4.0.9",
-    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.39.zip",
+    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.40.zip",
     "changelog": [
+        "Sports: Live NBA (and the other leagues) lists every live feed, not the single future game on the ESPN board",
         "Sports Live now lists every sport (NFL, college, NBA, MLB, NHL, soccer, UFC, F1, NASCAR, boxing, WWE, tennis, golf). It no longer hides a sport just because a game is not in progress",
         "Fixed: Pros and Live streams no longer crash with name '_query' is not defined. That crash hit every sport",
         "Sports: every league's Live games, College, Pros, and Replays stay on that sport. UFC no longer opens college football, and replays are filtered to the sport you picked",
