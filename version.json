@@ -1,10 +1,12 @@
 {
     "name": "AntiVenom Hub",
-    "version": "1.0.32",
+    "version": "1.0.33",
     "kodi_target": "21.3 (Omega) & 20 (Nexus)",
-    "skin_version": "4.0.7",
-    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.32.zip",
+    "skin_version": "4.0.8",
+    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.33.zip",
     "changelog": [
+        "Fixed: Install / Repair The Crew now installs The Crew, its module and all 15 helper add-ons by itself (about 1 minute) \u2014 no more manual install on Fire TV",
+        "Sports: just four choices \u2014 Live games, College, Pros, Replay games. Streams are listed as Stream 1, 2, 3 instead of (RS)/(SC) codes",
         "Speed: New Debrid engine \u2014 Play asks Torrentio for Real-Debrid instant copies only and starts the best 1080p/720p file in a few seconds (like Stremio)",
         "Added: Comet is the automatic backup when Torrentio has nothing that plays; Real-Debrid's own check is used if both are down",
         "Speed: Holding focus on a Home movie poster fetches its stream list in the background, so Play starts almost instantly",
