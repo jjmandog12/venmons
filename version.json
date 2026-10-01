@@ -1,9 +1,9 @@
 {
     "name": "AntiVenom Hub",
-    "version": "1.0.44",
+    "version": "1.0.45",
     "kodi_target": "21.3 (Omega) & 20 (Nexus)",
-    "skin_version": "4.0.7",
-    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.44.zip",
+    "skin_version": "4.0.8",
+    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.45.zip",
     "changelog": [
         "Speed: New Debrid engine \u2014 Play asks Torrentio for Real-Debrid instant copies only and starts the best 1080p/720p file in a few seconds (like Stremio)",
         "Added: Comet is the automatic backup when Torrentio has nothing that plays; Real-Debrid's own check is used if both are down",
