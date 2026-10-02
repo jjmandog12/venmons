@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="script.antivenom" name="AntiVenom Hub" version="1.0.55" provider-name="AntiVenom">
+<addon id="script.antivenom" name="AntiVenom Hub" version="1.0.56" provider-name="AntiVenom">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="plugin.video.thecrew" version="0.0.1" optional="true"/>
@@ -25,7 +25,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="skin.antivenom" version="4.0.11" name="AntiVenom" provider-name="AntiVenom">
+<addon id="skin.antivenom" version="4.0.12" name="AntiVenom" provider-name="AntiVenom">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0"/>
 	</requires>
