@@ -1,10 +1,11 @@
 {
     "name": "AntiVenom Hub",
-    "version": "1.0.44",
+    "version": "1.0.45",
     "kodi_target": "21.3 (Omega) & 20 (Nexus)",
     "skin_version": "4.0.10",
-    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.44.zip",
+    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.45.zip",
     "changelog": [
+        "Added: Unified streaming studio network IDs for HBO Max (HBO + Max Originals), Paramount+ (Yellowstone + Showtime), Peacock (NBC + USA), MGM+ (FROM), and Starz",
         "Added: FX on Hulu and network studio routing for Snowfall, The Bear, Fargo and other FX/Hulu exclusives",
         "Added: Featured crime drama collection including Snowfall, Power, The Wire, Sicario, American Gangster, Training Day and Boyz n the Hood",
         "Fixed: Debrid resolver direct fallback queries Real-Debrid instant cache for TV show packs and vintage seasons",
