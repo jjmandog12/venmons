@@ -1,10 +1,11 @@
 {
     "name": "AntiVenom Hub",
-    "version": "1.0.55",
+    "version": "1.0.56",
     "kodi_target": "21.3 (Omega) & 20 (Nexus)",
-    "skin_version": "4.0.11",
-    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.55.zip",
+    "skin_version": "4.0.12",
+    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.56.zip",
     "changelog": [
+        "Fixed: MLB Baseball opens the game list. Finished games and off-air wrestling shows still play instead of stopping on a notice",
         "Fixed: NFL games no longer open the Sunday Ticket feed when that channel is showing a different sport. Sky Sports NFL is tried first",
         "Added: TV Shows Kids category plays official YouTube shows (Blippi, Diana and Roma, and similar). Open a show and pick the episode",
         "Speed: New Debrid engine \u2014 Play asks Torrentio for Real-Debrid instant copies only and starts the best 1080p/720p file in a few seconds (like Stremio)",
