@@ -1,10 +1,11 @@
 {
     "name": "AntiVenom Hub",
-    "version": "1.0.57",
+    "version": "1.0.58",
     "kodi_target": "21.3 (Omega) & 20 (Nexus)",
-    "skin_version": "4.0.12",
-    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.57.zip",
+    "skin_version": "4.0.13",
+    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.58.zip",
     "changelog": [
+        "Fixed: Search suggestions appear while typing. Wrestling replays open only that show and keep the air date",
         "Fixed: Baseball and football no longer fail when Mad Titan Sports is missing. AntiVenom installs it, or opens the league list",
         "Fixed: MLB Baseball opens the game list. Finished games and off-air wrestling shows still play instead of stopping on a notice",
         "Fixed: NFL games no longer open the Sunday Ticket feed when that channel is showing a different sport. Sky Sports NFL is tried first",
