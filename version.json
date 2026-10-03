@@ -1,10 +1,13 @@
 {
     "name": "AntiVenom Hub",
-    "version": "1.0.45",
+    "version": "1.0.46",
     "kodi_target": "21.3 (Omega) & 20 (Nexus)",
     "skin_version": "4.0.10",
-    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.45.zip",
+    "zip_url": "https://raw.githubusercontent.com/jjmandog12/venmons/main/zips/script.antivenom/script.antivenom-1.0.46.zip",
     "changelog": [
+        "Fixed: Multi-tiered metadata resolver with TMDb ID, Cinemeta, TMDb Search, and TVMaze ensures no title ever fails to find streams due to missing IMDb IDs or Cinemeta timeouts",
+        "Fixed: Fast Mode passes tmdb IDs directly to DebridEngine and The Crew fallback, instantly resolving streams for Disney+ specials, obscure releases, and franchise films",
+        "Added: Direct metadata entries for The Wonderful Autumn of Mickey Mouse and Disney+ seasonal specials",
         "Added: Unified streaming studio network IDs for HBO Max (HBO + Max Originals), Paramount+ (Yellowstone + Showtime), Peacock (NBC + USA), MGM+ (FROM), and Starz",
         "Added: FX on Hulu and network studio routing for Snowfall, The Bear, Fargo and other FX/Hulu exclusives",
         "Added: Featured crime drama collection including Snowfall, Power, The Wire, Sicario, American Gangster, Training Day and Boyz n the Hood",
